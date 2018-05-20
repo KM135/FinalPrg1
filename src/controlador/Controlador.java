@@ -5,15 +5,15 @@ import modelo.Mecanico;
 import modelo.Modelo;
 import modelo.Reparacion;
 import modelo.Vehiculo;
-import vista.VentanaPrincipal;
+import vista.VenTallerPrin;
 
 public class Controlador {
 
-	private VentanaPrincipal ventana;
+	private VenTallerPrin ventana;
 	private Modelo modelo;
 
 	public Controlador() {
-		ventana = new VentanaPrincipal(this);
+		ventana = new VenTallerPrin(this);
 		modelo = new Modelo();
 	}
 
